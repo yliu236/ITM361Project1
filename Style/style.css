@@ -18,6 +18,18 @@ p {
     text-align: center;
 }
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.iframe{
+  width:100%;
+  margin: auto;
+}
+
 .nav {
   width: 100%;
   background-color: #6495ED;
@@ -56,16 +68,6 @@ p {
      color: #444;
      cursor: default;
    }
-@media screen and (max-width: 500px) {
-
-  .nav li {
-    width: 100%;
-    border-bottom: none;
-    line-height: 20px;
-    font-size: 1.2em;
-    padding: 0.5%;
-  }
-}
 .center{
   text-align: center;
 }
@@ -152,4 +154,15 @@ footer{
 	display: flex;
   max-width: 100%;
   margin:1vh auto;
+}
+
+@media screen and (max-width: 500px) {
+
+  .nav li {
+    width: 100%;
+    border-bottom: none;
+    line-height: 20px;
+    font-size: 1.2em;
+    padding: 0.5%;
+  }
 }
