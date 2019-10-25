@@ -156,13 +156,3 @@ footer{
   margin:1vh auto;
 }
 
-@media screen and (max-width: 500px) {
-
-  .nav li {
-    width: 100%;
-    border-bottom: none;
-    line-height: 20px;
-    font-size: 1.2em;
-    padding: 0.5%;
-  }
-}
